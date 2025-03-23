@@ -22,6 +22,11 @@ Perfect for personal use by musicians, beatmakers, or hobbyists who want to down
 ## Download from releases
 https://github.com/Refloow/YouTube-Music-Download/releases
 
+# DISCORD Server:
+On the server anyone can feel free to ask questions, engage in the comunity and discover other free open source software i build
+**https://discord.gg/4enDY8yhuS**
+
+
 ### 🧩 What This App Really Is
 
 This app is **not a breakthrough tool**, nor does it use any advanced techniques, YouTube APIs, or backend scraping.  
