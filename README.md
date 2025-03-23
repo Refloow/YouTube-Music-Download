@@ -20,7 +20,7 @@ Perfect for personal use by musicians, beatmakers, or hobbyists who want to down
 > ![image](https://github.com/user-attachments/assets/12dc521c-f890-4ba1-9c83-54247c917366)
 
 ## Download from releases
-https://github.com/Refloow/YouTube-Music-Download/releases/tag/1.0.0
+https://github.com/Refloow/YouTube-Music-Download/releases
 
 ## 📦 Installation (from Source)
 
