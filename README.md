@@ -22,9 +22,21 @@ Perfect for personal use by musicians, beatmakers, or hobbyists who want to down
 ## Download from releases
 https://github.com/Refloow/YouTube-Music-Download/releases
 
+### 🧩 What This App Really Is
+
+This app is **not a breakthrough tool**, nor does it use any advanced techniques, YouTube APIs, or backend scraping.  
+It's simply a **clean, user-friendly wrapper** for:
+
+- [`yt-dlp`](https://github.com/yt-dlp/yt-dlp) – For downloading audio streams  
+- [`ffmpeg`](https://ffmpeg.org/) – For optional MP3 conversion
+
+The app provides a lightweight GUI over existing, open-source command-line tools.  
+No hidden logic. No data collection. No manipulation of YouTube systems.
+
+
 ## 📦 Installation (from Source)
 
-### Prerequisites
+### Prerequisites for installation from source
 
 1. Node.js v20.10.0 https://nodejs.org/en/download
 2. Python v3.11 https://www.python.org/downloads/
