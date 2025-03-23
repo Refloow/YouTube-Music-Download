@@ -1,0 +1,61 @@
+{
+  "name": "youtube-music-downloader",
+  "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Refloow/YouTube-Music-Download.git"
+  },
+  "author": "Veljko Vuckovic",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Refloow/YouTube-Music-Download/issues"
+  },
+  "homepage": "https://github.com/Refloow/YouTube-Music-Download",
+  "description": "Fully open source desktop app for downloading audio (MP3 or WebM) with ease. Perfect for personal use by musicians, beatmakers, or hobbyists who want to download free-to-use YouTube beats for practice, remixing, or sampling without going to sketchy website tools.",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+"dist": "cross-env USE_HARD_LINKS=false ELECTRON_BUILDER_DISABLE_MIRROR=true electron-builder --win --x64"
+  },
+"build": {
+  "appId": "com.refloow.ytdownloader",
+  "productName": "YouTube Music Downloader",
+  "directories": {
+    "output": "dist"
+  },
+  "files": [
+    "**/*"
+  ],
+  "extraResources": [
+  {
+    "from": "bin/yt-dlp.exe",
+    "to": "yt-dlp.exe"
+  },
+  {
+    "from": "bin/ffmpeg.exe",
+    "to": "ffmpeg.exe"
+  }
+],
+  "win": {
+    "target": [
+      "nsis",
+      "portable"
+    ],
+    "icon": "build/icon.ico"
+  },
+"nsis": {
+  "oneClick": false,
+  "perMachine": false,
+  "allowToChangeInstallationDirectory": true
+}
+},
+  "dependencies": {
+    "ffmpeg-static": "^5.1.0",
+    "yt-dlp-wrap": "^2.3.2"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.3",
+    "electron": "^29.0.0",
+    "electron-builder": "^23.6.0"
+  }
+}
