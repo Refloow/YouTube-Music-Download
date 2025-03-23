@@ -26,8 +26,10 @@ https://github.com/Refloow/YouTube-Music-Download/releases
 
 ### Prerequisites
 
-1. Node.js https://nodejs.org/en/download
-2. Python311 https://www.python.org/downloads/
+1. Node.js v20.10.0 https://nodejs.org/en/download
+2. Python v3.11 https://www.python.org/downloads/
+
+(i provided versions so exact environment as development can be reproduced)
 
 ### 1. Clone the repo
 ```bash
