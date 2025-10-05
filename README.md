@@ -1,4 +1,4 @@
-# 🎵 YouTube Music Downloader (Electron App)
+# 🎵 YouTube Music Downloader (Desktop App)
 
 Fully open source desktop app for downloading audio (MP3 or WebM) with ease.
 Perfect for personal use by musicians, beatmakers, or hobbyists who want to download free-to-use YouTube beats for practice, remixing, or sampling without going to sketchy website tools.
