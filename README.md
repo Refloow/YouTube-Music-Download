@@ -101,7 +101,6 @@ Downloading videos from YouTube or any other platform **may violate their Terms 
 
 [MIT License](./LICENSE)
 
-
 ## 👨‍💻 Author
 
 **Veljko Vuckovic**  
