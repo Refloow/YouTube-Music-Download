@@ -4,7 +4,7 @@ Fully open source desktop app for downloading audio (MP3 or WebM) with ease.
 Perfect for personal use by musicians, beatmakers, or hobbyists who want to download free-to-use YouTube beats for practice, remixing, or sampling without going to sketchy website tools.
 
 > [!IMPORTANT]
-> Star 🌟 the repo, its free, and helps me build more features into exisitng and new projects as it showcases the usage and demand! <br>
+> Star 🌟 the repo, its free, and helps me build more features as it showcases the usage and demand! <br>
 > [Join our discord server](discord.gg/4enDY8yhuS) for support, questions and our community built around our ecosystems of many open source free to use tools
 
 
