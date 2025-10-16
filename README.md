@@ -19,7 +19,7 @@ Perfect for personal use by musicians, beatmakers, or hobbyists who want to down
 - ✅ Fully self-contained `.exe` build (no Python or FFmpeg install required)
 
 
-## 📸 Screenshot
+## 📸 Screenshot UI Showcase
 
 > ![image](https://github.com/user-attachments/assets/12dc521c-f890-4ba1-9c83-54247c917366)
 
