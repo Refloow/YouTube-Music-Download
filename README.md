@@ -39,7 +39,7 @@ The app provides a lightweight GUI over existing, open-source command-line tools
 No hidden logic. No data collection. No manipulation of YouTube systems.
 
 
-## 📦 Installation (from Source)
+## 📦 Installation (from Source) - for contributors, everyone else head to [ Releases](https://github.com/Refloow/YouTube-Music-Download/releases) to download the built installer or other options
 
 ### Prerequisites for installation from source
 
