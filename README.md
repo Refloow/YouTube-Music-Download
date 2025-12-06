@@ -30,7 +30,6 @@ https://github.com/Refloow/YouTube-Music-Download/releases
 On the server anyone can feel free to ask questions, engage in the comunity and discover other free open source software i build
 **https://discord.gg/4enDY8yhuS**
 
-
 ### 🧩 What This App Really Is
 
 This app is **not a breakthrough tool**, nor does it use any advanced techniques, YouTube APIs, or backend scraping.  
