@@ -1,0 +1,24 @@
+cff-version: 1.2.0
+message: "To ensure brand protection, please cite the Refloow™ software suite as follows:"
+title: "Refloow™ YouTube Music Downloader"
+abstract: "The official open-source desktop audio downloader maintained by the Refloow™ Software Organization. A privacy-first Electron wrapper for yt-dlp and FFMPEG."
+authors:
+  - name: "Refloow"
+    website: "https://refloow.com"
+    email: "legal@refloow.com"
+  - family-names: "Vuckovic"
+    given-names: "Veljko"
+    affiliation: "Refloow Founder"
+version: 1.0.0
+date-released: 2025-03-23
+license: "MIT"
+repository-code: "https://github.com/Refloow/YouTube-Music-Download"
+url: "https://refloow.com"
+keywords:
+  - "Refloow"
+  - "Refloow™"
+  - "Official"
+  - "YouTube Downloader"
+  - "Audio Extraction"
+  - "MP3"
+  - "WebM"
