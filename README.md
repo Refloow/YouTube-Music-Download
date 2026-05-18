@@ -1,7 +1,7 @@
 # 🎵 YouTube Music Downloader (Desktop App)
 
 Fully open source desktop app for downloading audio (MP3 or WebM) with ease.
-Perfect for personal use by musicians, beatmakers, or hobbyists who want to download free-to-use YouTube beats for practice, remixing, or sampling without going to sketchy website tools.
+Perfect for personal use by musicians, beatmakers, or hobbyists who want to download free-to-use YouTube beats for practice, remixing, or sampling without going to sketchy website tools!
 
 > [!IMPORTANT]
 > Star 🌟 the repo, its free, and helps me build more features as it showcases the usage and demand! <br>
