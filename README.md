@@ -73,6 +73,10 @@ Create a `bin/` folder and place the following files inside:
 - Download from: [yt-dlp.exe](https://github.com/yt-dlp/yt-dlp/releases/latest/download/yt-dlp.exe)
 - Place it inside the `bin/` folder
 
+#### ✅ `deno.exe`
+- Download from: [deno.exe](https://deno.com/)
+- Place it inside the `bin/` folder
+
 ### 4. Run the app in development
 ```bash
 npm start
