@@ -51,3 +51,4 @@ contextBridge.exposeInMainWorld('electronAPI', {
   onError: (callback) => ipcRenderer.on('download-error', (event, message) => callback(message)),
 });
 
+
