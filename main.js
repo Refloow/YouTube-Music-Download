@@ -47,10 +47,13 @@ const ytDlpWrap = new YtDlpWrap();
 let selectedDownloadFolder = null;
 const settingsPath = path.join(app.getPath('userData'), 'settings.json');
 
-// Set ffmpeg path depending on environment
 const ffmpegPath = app.isPackaged
   ? path.join(process.resourcesPath, 'ffmpeg.exe')
   : path.join(__dirname, 'bin', 'ffmpeg.exe');
+
+const denoPath = app.isPackaged
+  ? path.join(process.resourcesPath, 'deno.exe')
+  : path.join(__dirname, 'bin', 'deno.exe');
 
 function createWindow() {
   const win = new BrowserWindow({
@@ -132,7 +135,11 @@ ipcMain.on('download-audio', async (event, { url, format }) => {
 
   let videoTitle = 'audio';
   try {
-    const info = await ytDlpWrap.getVideoInfo(url);
+    const info = await ytDlpWrap.getVideoInfo([
+      url, 
+      '--dump-json', 
+      '--js-runtimes', `deno:${denoPath}`
+    ]);
     videoTitle = info.title.replace(/[\\/:*?"<>|]/g, '');
   } catch (err) {
     console.error('Failed to fetch video info:', err);
@@ -141,10 +148,13 @@ ipcMain.on('download-audio', async (event, { url, format }) => {
   const extension = format === 'mp3' ? 'mp3' : 'webm';
   const outputTemplate = path.join(selectedDownloadFolder, `${videoTitle}.${extension}`).replace(/\\/g, '/');
 
-  const args = [
+const args = [
     url,
     '-f', 'bestaudio',
     '-o', outputTemplate,
+    '--js-runtimes', `deno:${denoPath}`,
+    '--rm-cache-dir',
+    '--extractor-args', 'youtube:player_client=default,web_safari;player_js_version=actual'
   ];
 
   if (format === 'mp3') {
@@ -159,6 +169,11 @@ ipcMain.on('download-audio', async (event, { url, format }) => {
 
   download.on('close', () => {
     event.sender.send('download-complete');
+  });
+
+  download.on('error', (err) => {
+    console.error('Download error:', err.message);
+    event.sender.send('download-error', 'Download failed. Check the console for details.');
   });
 });
 
