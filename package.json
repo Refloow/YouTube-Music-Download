@@ -49,6 +49,10 @@
   {
     "from": "bin/ffmpeg.exe",
     "to": "ffmpeg.exe"
+  },
+  {
+    "from": "bin/deno.exe",
+    "to": "deno.exe"
   }
 ],
   "win": {
