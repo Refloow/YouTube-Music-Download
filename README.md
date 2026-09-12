@@ -91,7 +91,7 @@ npm run dist
 
 ## 💼 Packaging Notes
 - Uses `electron-builder` for cross-platform packaging
-- `extraResources` includes `yt-dlp.exe` and `ffmpeg.exe`
+- `extraResources` includes `yt-dlp.exe`, `ffmpeg.exe` and `deno.exe`
 - Settings are stored in Electron's `app.getPath('userData')`
 
 
